@@ -1,0 +1,16 @@
+!!!5
+html
+  head
+    title #{siteName} 
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1 #{siteName}
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p 2013 Impulse by 
+        a(href="http://evanburchard.com") Evan Burchard
