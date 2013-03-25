@@ -8,10 +8,13 @@
     "jade": "*",
     "stylus": "*",
     "nib": "*",
+    "supervisor": "*"
+  },
+  "devDependencies": {
     "supertest": "*",
     "mocha": "*",
     "commander": "*",
-    "supervisor": "*"
+    "wish": "*"
   },
   "scripts": {
     "test": "make test"
