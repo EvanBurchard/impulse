@@ -9,7 +9,7 @@ suite('getting pages', function(){
     .expect('Content-Type', /text\/html/)
     .expect(200)
     .end(function(err, res){
-      wish(null == err);
+      wish(null === err);
       wish(/Impulse/.test(res.text));
       done();
     });
